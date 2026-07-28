@@ -1,3 +1,5 @@
+<img width="1310" height="739" alt="Capture d&#39;écran 2026-07-28 021331" src="https://github.com/user-attachments/assets/ec0e9e01-7b6c-4c85-b986-f3ff6c72370f" />
+<img width="1329" height="737" alt="Capture d&#39;écran 2026-07-28 021320" src="https://github.com/user-attachments/assets/702c73c1-1bca-4a42-9694-35346292a2e1" />
 # Healthcare Clinic CRISP-DM Power BI Project
 
 End-to-end CRISP-DM project analyzing a healthcare clinic dataset — from business understanding to a fully interactive Power BI dashboard with a star-schema data model and DAX measures.
