@@ -1,5 +1,3 @@
-<img width="1310" height="739" alt="Capture d&#39;écran 2026-07-28 021331" src="https://github.com/user-attachments/assets/ec0e9e01-7b6c-4c85-b986-f3ff6c72370f" />
-<img width="1329" height="737" alt="Capture d&#39;écran 2026-07-28 021320" src="https://github.com/user-attachments/assets/702c73c1-1bca-4a42-9694-35346292a2e1" />
 # Healthcare Clinic CRISP-DM Power BI Project
 
 End-to-end CRISP-DM project analyzing a healthcare clinic dataset — from business understanding to a fully interactive Power BI dashboard with a star-schema data model and DAX measures.
@@ -39,7 +37,8 @@ A star schema with a snowflake branch (doctors/staff → clinics):
 - `docs/` — Business Understanding, Data Model diagram, and full CRISP-DM documentation
 - `exports/` — PDF export of the final dashboard[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30440008/Documentation_Projet_CRISP-DM.pdf)
 
-
+<img width="1310" height="739" alt="Capture d&#39;écran 2026-07-28 021331" src="https://github.com/user-attachments/assets/ec0e9e01-7b6c-4c85-b986-f3ff6c72370f" />
+<img width="1329" height="737" alt="Capture d&#39;écran 2026-07-28 021320" src="https://github.com/user-attachments/assets/702c73c1-1bca-4a42-9694-35346292a2e1" />
 
 
 **Malak Azzouz** — [github.com/malakazz18](https://github.com/malakazz18)[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30439800/Documentation_Projet_CRISP-DM.pdf)
