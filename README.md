@@ -35,8 +35,9 @@ A star schema with a snowflake branch (doctors/staff → clinics):
 - `data/raw/` — original source files (CSV + TXT)
 - `powerbi/` — Power BI project file (.pbix) with Power Query transformations, data model, DAX measures, and dashboards
 - `docs/` — Business Understanding, Data Model diagram, and full CRISP-DM documentation
-- `exports/` — PDF export of the final dashboard
-[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30439809/Documentation_Projet_CRISP-DM.pdf)
+- `exports/` — PDF export of the final dashboard[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30440008/Documentation_Projet_CRISP-DM.pdf)
+
+
 
 
 **Malak Azzouz** — [github.com/malakazz18](https://github.com/malakazz18)[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30439800/Documentation_Projet_CRISP-DM.pdf)
