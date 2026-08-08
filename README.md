@@ -1,40 +1,140 @@
-# Healthcare Clinic CRISP-DM Power BI Project
+# 🏥 Healthcare Clinic Analytics — Power BI
 
-End-to-end CRISP-DM project analyzing a healthcare clinic dataset — from business understanding to a fully interactive Power BI dashboard with a star-schema data model and DAX measures.
+> End-to-end healthcare analytics project following the CRISP-DM methodology, from data preparation and modeling to an interactive Power BI dashboard.
 
-## Overview
+## 📊 Project Overview
 
-This project applies the six phases of the **CRISP-DM methodology** to a synthetic healthcare clinic dataset covering 50 clinics, 500 doctors, 1,000 staff members, 20,000 patients, and 100,000 appointments (with associated payments, treatments, and prescriptions).
+This project analyzes a synthetic healthcare clinic dataset to explore operational, financial, staffing, patient, and treatment-related trends.
 
-## Business Questions Answered
+The project follows the **CRISP-DM methodology**:
 
-- How is appointment volume distributed across clinics?
-- What is the total income per clinic, city, and state?
-- How many staff and doctors are assigned to each clinic?
-- How many distinct medical specialties are covered per clinic?
-- How many patients registered each year (2024–2026)?
-- What is the most preferred payment method across clinics?
-- What proportion of payments are made via insurance?
-- What is the status of treatments (completed / ongoing / pending)?
+```text
+Business Understanding
+        ↓
+Data Understanding
+        ↓
+Data Preparation
+        ↓
+Data Modeling
+        ↓
+Analysis
+        ↓
+Visualization
+```
 
-## Data Model
+## 📦 Dataset
 
-A star schema with a snowflake branch (doctors/staff → clinics):
+The dataset contains approximately:
 
-**Fact tables:** Appointments, Payments, Treatments
-**Dimension tables:** Patients, Doctors, Staff, Clinics, Date
+* 50 clinics
+* 500 doctors
+* 1,000 staff members
+* 20,000 patients
+* 100,000 appointments
 
-## Tech Stack
+The analysis covers appointments, payments, treatments, prescriptions, staffing, clinics, patients, and medical specialties.
 
-- **Power Query** — data cleaning and transformation (locale-safe date/number formatting, PII removal, deduplication checks)
-- **Power BI Desktop** — data modeling, relationships, DAX measures
-- **DAX** — 19 measures covering counts, sums, and ratios across all business questions
+## 🔎 Business Questions
 
-## Repository Contents
+The dashboard investigates:
 
-- `data/raw/` — original source files (CSV + TXT)
-- `powerbi/` — Power BI project file (.pbix) with Power Query transformations, data model, DAX measures, and dashboards
-- `docs/` — Business Understanding, Data Model diagram, and full CRISP-DM documentation
+* Appointment volume by clinic
+* Revenue by clinic and location
+* Patient registrations over time
+* Staff and doctor distribution
+* Medical specialties
+* Payment methods
+* Insurance usage
+* Treatment status
+
+## 🧩 Data Model
+
+The project uses a **star-schema model**.
+
+### Fact Tables
+
+* Appointments
+* Payments
+* Treatments
+
+### Dimension Tables
+
+* Patients
+* Doctors
+* Staff
+* Clinics
+* Date
+
+## 🛠️ Technology Stack
+
+* Power BI Desktop
+* Power Query
+* DAX
+* Data Modeling
+* CRISP-DM
+
+## 📐 DAX
+
+The project contains **19 DAX measures** covering:
+
+* Counts
+* Sums
+* Ratios
+* KPIs
+* Time-based analysis
+
+## 🧹 Data Preparation
+
+Power Query was used for:
+
+* Data cleaning
+* Data transformation
+* Date/number formatting
+* Duplicate checks
+* PII removal
+* Data preparation for modeling
+
+## 📸 Dashboard Preview
+
+Add 3–4 screenshots here.
+
+```text
+docs/
+├── dashboard-overview.png
+├── clinic-analysis.png
+├── patient-analysis.png
+└── financial-analysis.png
+```
+
+## 📁 Repository Structure
+
+```text
+├── data/
+│   └── raw/
+├── docs/
+├── exports/
+├── powerbi/
+│   └── clinic.pbix
+└── README.md
+```
+
+## 🎓 What I Learned
+
+* Applying CRISP-DM to an end-to-end analytics project
+* Data cleaning with Power Query
+* Designing a star schema
+* Writing DAX measures
+* Building interactive dashboards
+* Translating data into business questions and KPIs
+
+## 🔮 Future Improvements
+
+* Add automated data refresh
+* Add predictive analytics
+* Add patient-volume forecasting
+* Add anomaly detection
+* Connect the dashboard to a live database
+
 - `exports/` — PDF export of the final dashboard[Documentation_Projet_CRISP-DM.pdf](https://github.com/user-attachments/files/30440008/Documentation_Projet_CRISP-DM.pdf)
 
 <img width="1310" height="739" alt="Capture d&#39;écran 2026-07-28 021331" src="https://github.com/user-attachments/assets/ec0e9e01-7b6c-4c85-b986-f3ff6c72370f" />
